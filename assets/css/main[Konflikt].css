@@ -1,0 +1,643 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Nunito', sans-serif;
+    font-size: 22px;
+    box-sizing: border-box;
+}
+
+body
+{
+    background: #f8f9fa;
+}
+
+.main {
+    width: 100vw;
+    margin: auto;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    background: white;
+    border-bottom: 1px solid #E7EBED;
+}
+
+.nav {
+    width: 100%;
+}
+
+.nav__list {
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    list-style-type: none;
+}
+
+.nav__list__item {
+    align-self: flex-end;
+    margin-right: 10px;
+}
+
+.nav ul li a {
+    text-transform: uppercase;
+    font-size: 23px;
+    color: #000;
+    text-decoration: none;
+}
+
+.header__image {
+    height: 160px;
+    width: 160px;
+    max-width: 100%;
+    align-self: center;
+}
+
+/*
+-----------------------
+HOME START
+-----------------------
+*/
+
+.home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #12316B;
+    color: white;
+}
+
+.home__box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    flex-basis: 100%;
+}
+
+.home--p10 {
+    padding: 20px 0;
+}
+
+.home__item {
+    display: flex;
+    justify-content: center;
+}
+
+.home__paragraph {
+    font-size: 40px;
+}
+
+.home__box__logo {
+    max-width: 100%;
+    height: auto;
+}
+
+/*
+-----------------------
+HOME END
+-----------------------
+*/
+
+/*
+-----------------------
+ABOUT ME START
+-----------------------
+*/
+
+.about {
+    padding: 0 15px;
+}
+
+.about__boxes {
+    display: flex;
+    flex-direction: column;
+}
+
+.about__paragraph {
+    text-align: justify;
+    font-size: 17px;
+}
+
+.about__block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.about__item--paragraph {
+    margin-bottom: 30px;
+}
+
+/*
+-----------------------
+ABOUT ME END
+-----------------------
+*/
+
+/*
+-----------------------
+COMPANY START
+-----------------------
+*/
+
+.company {
+    padding: 0 15px;
+}
+
+.company__paragraph, .company__list__item, u {
+    text-align: justify;
+    font-size: 17px;
+}
+
+.company__list {
+    list-style-type: none;
+    font-size: 19px;
+}
+
+.company__block {
+    margin: 0 auto;
+}
+
+/*
+-----------------------
+COMPANY START END
+-----------------------
+*/
+
+/*
+-----------------------
+HOWITWORKS START
+-----------------------
+*/
+
+.how-it-works {
+    display: flex;
+    flex-direction: column;
+    padding: 0 15px;
+    margin-top: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.how-it-works__paragraphHead {
+    font-size: 35px;
+    text-transform: uppercase;
+}
+
+.how-it-works__boxes {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.how-it-works__paragraph {
+    font-size: 17px;
+    text-align: justify;
+}
+
+.how-it-works__block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.how-it-works__block__item .how-it-works__paragraph:last-child {
+    padding-top: 10px;
+}
+
+/*
+-----------------------
+HOWITWORKS END
+-----------------------
+*/
+
+/*
+-----------------------
+OFFER START
+-----------------------
+*/
+
+.offer {
+    padding: 0 15px;
+    text-align: justify;
+}
+
+.offer__paragraph {
+    font-weight: bold;
+    margin-top: 25px;
+}
+
+.offer__list {
+    padding-left: 25px;
+}
+
+.offer__list__item {
+    font-size: 17px;
+}
+
+.offer__block__item--highlight
+{
+    width: auto;
+    height: auto;
+    background: #F4F6F8;
+    padding: 30px;
+}
+
+/*
+-----------------------
+OFFER END
+-----------------------
+*/
+
+/*
+-----------------------
+CONTACT START
+-----------------------
+*/
+
+.contact__boxes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact__block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.contact__block:last-child {
+    margin-top: 15px;
+    background: #ebebeb;
+    border-radius: 25px;
+    justify-content: space-between;
+    padding: 15px 0;
+}
+
+.contact__block:last-child .contact__block__item {
+    padding: 5px 20px;
+}
+
+/*
+-----------------------
+CONTACT END
+-----------------------
+*/
+
+/*
+-----------------------
+SITEMAP START
+-----------------------
+*/
+
+.map
+{
+    margin-top: 60px;
+}
+
+.map__boxes
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 40px 10%;
+}
+
+.map__block:last-child
+{
+    margin-top:20px;
+}
+
+.map__boxes--paint
+{
+    background: #616161;
+}
+
+.map__nav
+{
+    margin-top: 20px;
+    list-style-type: none;
+    line-height: 35px;
+}
+
+.map__nav__item
+{
+    font-size: 17px;
+    color: white;
+}
+
+.map__nav__link
+{
+    font-size: 17px;
+    color: #cfcfcf;
+    text-decoration: none;
+}
+
+.map__paragraph
+{
+    text-transform: uppercase;
+    color: white;
+}
+
+/*
+-----------------------
+SITEMAP END
+-----------------------
+*/
+
+/*
+-----------------------
+FOOTER START
+-----------------------
+*/
+
+.footer--paint
+{
+    background: #373737;
+    color: white;
+}
+
+.footer__box
+{
+    padding: 20px 10%;
+}
+
+.footer__paragraph {
+    font-size: 12px;
+}
+
+/*
+-----------------------
+FOOTER END
+-----------------------
+*/
+
+/*
+-----------------------
+RWD START
+-----------------------
+*/
+
+@media all and (min-width: 1200px) {
+    .about, .company, .how-it-works, .offer {
+        margin: 0 auto;
+        width: 90%;
+    }
+}
+
+@media all and (min-width: 992px) {
+    .nav__list__item a::after {
+        margin-top: 5px;
+        content: '';
+        display: block;
+        width: 0;
+        height: 1.5px;
+        background: #000;
+        transition: width .3s;
+    }
+    
+    .nav__list__item a:hover::after {
+        width: 100%;
+    }
+    .home__box {
+        background: rgba(255, 255, 255, 0.3);
+    }
+    .home__paragraph {
+        font-size: 38px;
+    }
+    .home__header {
+        font-size: 24px;
+    }
+    .home__item span {
+        font-size: 20px;
+    }
+    /*----------------------------------------------*/
+    .offer__block__item:last-child img {
+        padding-left: 20px;
+        bottom: 0;
+    }
+    .offer__list__item {
+        font-size: 18px;
+    }
+    .offer__paragraph {
+        margin-top: 0;
+        font-size: 27px;
+    }
+    .offer__block:nth-child(3) {
+        background-image: url('../img/piramidakasy.jpeg');
+        background-repeat: no-repeat;
+        background-position: right bottom;
+        background-size: auto 70%;
+        position: relative;
+        object-fit: contain;
+    }
+    .offer__image {
+        max-width: 35%;
+        max-height: 20%;
+    }
+    .offer__image--right {
+        float: right;
+    }
+    /*----------------------------------------------*/
+    .how-it-works__boxes {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .how-it-works__block {
+        flex-basis: 33%;
+        justify-content: flex-start;
+    }
+    .how-it-works__block:nth-child(2) {
+        padding: 0 45px;
+    } //*----------------------------------------------*/
+}
+
+@media all and (min-width: 768px) {
+    .main {
+        width: 80%;
+    }
+    /*----------------------------------------------*/
+    .home__paragraph {
+        font-size: 33px;
+    }
+    .home__header {
+        font-size: 20px;
+    }
+    .home__item span {
+        font-size: 20px;
+    }
+    /*----------------------------------------------*/
+    .about__boxes {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .about__paragraph {
+        font-size: 18px;
+    }
+    .about__block {
+        flex-basis: 45%;
+    }
+    /*----------------------------------------------*/
+    .company__paragraph {
+        font-size: 18px;
+    }
+    /*----------------------------------------------*/
+    .how-it-works__paragraphHead {
+        font-size: 45px;
+    }
+    .how-it-works__block .how-it-works__block__item:last-child {
+        padding-top: 0px;
+    }
+    /*----------------------------------------------*/
+    .offer__block:not(:first-child) {
+        margin-top: 50px;
+    }
+    .offer__list {
+        padding-top: 15px;
+    }
+    /*----------------------------------------------*/
+    .contact__boxes {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    /*----------------------------------------------*/
+}
+
+@media all and (min-width: 506px) and (max-width: 767px) {
+    .main{
+        width: 90%;
+    }
+    /*----------------------------------------------*/
+    .home__paragraph {
+        font-size: 30px;
+    }
+    .home__header {
+        font-size: 20px;
+    }
+    .home__item span {
+        font-size: 19px;
+    }
+    /*----------------------------------------------*/
+    .hidden-on-lg {
+        display: none;
+    }
+    .about, .company, .how-it-works, .offer, .contact {
+        padding: 0;
+    }
+}
+
+@media all and (min-width: 614px) {
+    .header {
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row;
+    }
+    .header nav {
+        width: auto;
+    }
+    .nav__list {
+        flex-direction: row;
+    }
+    .home {
+        flex-direction: row;
+    }
+    .about, .company, .how-it-works, .offer {
+        padding: 0;
+    }
+    .company__image {
+        padding-left: 20px;
+        max-height: 400px;
+        max-width: 400px;
+    }
+    .company__image--right {
+        float: right;
+    }
+    .how-it-works {
+        margin-top: 150px;
+    }
+}
+
+@media all and (max-width: 995px) {
+    .hidden-on-md {
+        display: none;
+    }
+}
+
+@media all and (min-width: 479px) {
+
+    .map__boxes
+    {
+        flex-direction: row;
+    }
+    .map__block:last-child
+    {
+        margin-top:0;
+    }
+}
+
+/*
+-----------------------
+RWD END
+-----------------------
+*/
+
+.stripe {
+    margin: 35px 0 35px 0;
+    display: block;
+    text-align: center;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.stripe>span {
+    position: relative;
+    display: inline-block;
+    font-size: 35px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.stripe>span:before, .stripe>span:after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    width: 9999px;
+    height: 2px;
+    background: black;
+}
+
+.stripe>span:before {
+    right: 100%;
+    margin-right: 25px;
+}
+
+.stripe>span:after {
+    left: 100%;
+    margin-left: 25px;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+
+.paintGrey
+{
+    color: #cfcfcf;
+}
+
+.bold
+{
+    font-size: 15px;
+    font-weight: bold;
+}
